@@ -9,12 +9,13 @@ function Register() {
 
   return (
     <div>
-      <h2>Register Page</h2>
+      <h2>Registeration Page</h2>
+      
 
       <input type="text" placeholder="enter name" /><br /><br />
       <input type="password" placeholder="enter Password" /><br /><br />
 
-      <button onClick={handleSubmit}>Register</button>
+      <button   onClick={handleSubmit}>Register</button>
     </div>
   );
 }
